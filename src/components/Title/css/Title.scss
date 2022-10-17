@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+.title{
+    display: flex;
+    align-items: flex-start;
+    padding: 60px 40px 20px 40px;
+    gap: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    justify-content: center;
+    text-align: center;
+    color: #1B31A8;
+
+}
+
+.stronger{
+    font-weight: 500;
+}
+
+@media (max-width: 670px) {
+    .title{
+        font-size: 18px;
+    }
+}

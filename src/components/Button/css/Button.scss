@@ -1,0 +1,26 @@
+.button{
+    background-color: #1B31A8;
+    border-radius: 32px;
+    border: transparent;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 18px 128px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 670px) {
+    .button{
+        padding: 18px 80px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

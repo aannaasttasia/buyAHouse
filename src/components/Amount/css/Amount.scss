@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.dateInput{
+    display: flex;
+    border: solid 1px #E9EEF2;
+    border-radius: 4px;
+    justify-content: center;
+    width: auto;
+}
+
+.btn{
+    background-color: transparent;
+    border: transparent;
+    color: #8A9CA9;
+    padding: 0px 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.month{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 14px;
+    margin: 5.5px;
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.year{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E2A32;
+    margin: 5.5px;
+}
+
+.monthYear{
+    padding: 0px 20px;
+    text-align: center;
+
+}
+
+.text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+.inputAmount{
+    padding: 10px 10px 10px 40px;
+    border: solid 1px #E9EEF2;
+    border-radius: 4px;
+    appearance: textfield;
+    font-size: 24px;
+    width: 91%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #4D6475;  
+}
+
+.symbol{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 25px;
+    color: #CBD5DC;  
+}
+
+.symbol:before{
+    position: absolute;
+    content:"$";
+    padding-left: 20px;
+
+}
+
+@media (max-width: 670px) {
+    .inputs{
+           flex-direction: column;
+           gap: 15px;
+    }
+    .dateInput{
+        justify-content: space-between;
+    }
+    .inputAmount{
+        width: auto;
+    }
+}
